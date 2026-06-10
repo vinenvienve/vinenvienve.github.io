@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Blog do Luiz</h1>
+        
+    </header>
+
+    <nav class="navbar">
+        <div>
+            <a href="./pages/about.html">About</a>
+            <a href="./pages/contact.html">Contato</a>
+            <a href="./pages/formulario.html">Currículo</a>
+            <a href="./pages/receitas.html">Receitas</a>
+        </div>
+        <div>
+            <button class="fonte" onclick="aumentarFonte()"></button>
+            <button class="Fonte" onclick="diminuirFonte()"></button>
+            <button id="darkTheme" onclick="mudarThema()"></button>
+        </div>
+    </nav>
+
+    <!-- Content Container -->
+    <div class="container">
+        <aside class="side">
+            <h2>Coisas que eu gosto</h2>
+            <h5>Apolo</h5>
+            <div class="fakeimg1" style="height:200px;">
+            </div>
+            <h2>Obras Favoritas</h2>
+            <div class="list">
+                <figure>
+                    <img class="fakeimg2"></img>
+                </figure>
+                <figure>
+                    <img class="fakeimg3"></img>
+                </figure>
+                <figure>
+                    <img class="fakeimg4"></img>
+                </figure>
+                <figure>
+                    <img class="fakeimg5"></img>
+                </figure>
+                <figure>
+                    <img class="fakeimg6"></img>
+                </figure>
+            </div>
+        </aside>
+        <main class="main">
+            <section>
+                <h2>Universidade</h2>
+                <div class="fakeimg" style="height:280px;"></div>
+                <p>Fundada em 1968, a UPF é uma das maiores referências em ensino superior no norte do Rio Grande do
+                    Sul.</p>
+                <p>No momento, estou cursando Análise e Desenvolvimento de Sistemas na UPF, aprimorando minhas
+                    habilidades em programação, desenvolvimento para web e engenharia de software. </p>
+                <br>
+            </section>
+            <section class="section">
+                <h2>Últimas Postagens</h2>
+                <h3>Musica mais ouvida de 2026</h3>
+                <article class="postagem1"><iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/album/3RYdEXhGHojkTILUdtnRVJ?utm_source=generator"
+                        width="100%" height="152" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </article>
+            </section>
+            <br>
+            <section>
+                <h3>Ultimo filme visto</h3>
+                <h4>Céu e Inferno</h4>
+                <article class="postagem2">
+            
+                </article>
+            </section>
+
+        </main>
+    </div>
+    <footer>
+        <button class="botao"><a class="link" href="#"> Menu </a></button>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

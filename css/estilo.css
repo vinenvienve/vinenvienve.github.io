@@ -1,0 +1,423 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S+Guides:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.fonte {
+  background-image: url(../assets/text_increase_35dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.svg);
+  padding: 20px;
+  background-color: #333;
+
+}
+
+.Fonte {
+  background-image: url(../assets/text_decrease_34dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.svg);
+  background-color: #333;
+  padding: 20px;
+
+}
+
+
+#darkTheme {
+  background-image: url(../assets/dark_mode_40dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.svg);
+  padding: 20px;
+  background-color: #333;
+}
+
+body.darkColor header, 
+body.darkColor main, 
+body.darkColor section, 
+body.darkColor div,
+body.darkColor aside,
+body.darkColor footer,
+body.darkColor nav,
+body.darkColor button {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body {
+  font-family: "Titillium Web";
+  margin: 0;
+  font-weight: 300;
+}
+
+
+
+.fonte1 {
+  font-size: 24px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.fonte2 {
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+
+
+.menu1 nav {
+  background-color: #0f0404;
+  width: 10px;
+  height: 10px;
+}
+
+.menu1 li {
+  width: 230px;
+  list-style: none;
+}
+
+.menu1 a {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.menu1 li:hover {
+  text-decoration: underline white;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  padding: 60px;
+  text-align: center;
+  background: #858585;
+  color: black;
+}
+
+/* Top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/* Navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-image: url(../assets/Crédito\ -\ Arquivo\ UPF.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+
+  .container,
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+
+.extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+.botao {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background-color:grey;
+  border: 3px solid black;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.fakeimg1 {
+  background-image: url(../assets/2026-03-21-011008.jpg);
+  background-size: cover;
+}
+
+.fakeimg2 {
+  background-image: url(../assets/Cowboy-Bebop.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 70px;
+
+}
+
+.fakeimg3 {
+  background-image: url(../assets/fullmetal.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 70px;
+}
+
+.fakeimg4 {
+  background-image: url(../assets/hunter.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 70px;
+}
+
+.fakeimg5 {
+  background-image: url(../assets/joj.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 90px;
+}
+
+.fakeimg6 {
+  background-image: url(../assets/nana.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 70px;
+  border: 2px solid;
+}
+
+
+.list figure {
+  margin: 0;
+  padding: 0;
+}
+
+.list img {
+  width: 100%;
+}
+
+/* Comece simples */
+body.about {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header.sobre {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.hero {
+  background-color: #f0f0f0;
+  padding: 40px;
+  text-align: center;
+}
+
+.postagem1 {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+  max-width: 1200px;
+  height: 152px;
+}
+
+.postagem2 {
+  background-image: url(../assets/highandlow2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+  max-width: 1200px;
+  height: 250px;
+
+}
+
+
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 700px;              
+    max-width: 100%;
+    height: auto;               
+    background-color: #ffffff; 
+    margin: 40px auto;         
+    padding: 40px;             
+    border-radius: 20px;      
+}
+.pizza {
+    width: 100%;              
+    height: auto;              
+    border-radius: 12px;      
+}
+.preparo {
+    background-color: #fff5f6; 
+    border-radius: 12px;       
+    padding: 20px;             
+    margin: 25px 0;            
+}
+
+.preparo h2 {
+    color: #7b284f;            
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+hr {
+    border: none;
+    border-top: 1px solid #e3dedc; 
+    margin: 30px 0;               
+    
+}
+body {
+    background-color: #f3e7de; 
+    margin: 0;              
+    font-family: Arial, sans-serif;
+}
+
+.container-principal {
+    display: flex;
+    width: 100%;
+    min-height: 100vh; 
+}
+
+.conteudo-contato {
+    flex:  80%; 
+    background-color:white;
+    padding: 20px;
+    box-sizing: border-box; 
+    min-height: 100vh;
+}
+
+.card-formulario {
+    background-color:rgb(144, 142, 134);
+    max-width: 600px;         
+    margin: 40px auto;        
+    padding: 40px;            
+    border-radius: 20px;      
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); 
+    font-family: sans-serif;
+}
+
+.card-formulario h2 {
+    color: black;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.card-formulario label {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.linha-dupla {
+    display: flex;
+    gap: 15px;               
+    margin-bottom: 25px;
+}
+
+.card-formulario input[type="text"],
+.card-formulario textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;       
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+.card-formulario textarea {
+    height: 120px;
+    resize: vertical;        
+    margin-bottom: 25px;
+}
+
+.btn-enviar {
+    display: block;
+    width: 150px;            
+    margin: 0 auto;          
+    background-color: #00bfa5; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-enviar:hover {
+    background-color: #00a892;
+}
+
+.maracuja{
+  text-decoration: none;
+  color: grey;
+}
+.esquerda{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footer2{
+      min-height: 10vh;
+
+}
