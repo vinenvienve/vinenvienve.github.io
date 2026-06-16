@@ -52,17 +52,24 @@ body {
 }
 
 
-
-.fonte1 main,
-.fonte1 .main-curriculo,
-.fonte1 .container {
+body.fonte1 h1, 
+body.fonte1 h2, 
+body.fonte1 h3, 
+body.fonte1 p, 
+body.fonte1 a,
+body.fonte1 main
+ {
   font-size: 24px;
   font-family: "Titillium Web", sans-serif;
 }
 
-.fonte2 main,
-.fonte2 .main-curriculo,
-.fonte2 .container {
+body.fonte2 h1, 
+body.fonte2 h2, 
+body.fonte2 h3, 
+body.fonte2 p, 
+body.fonte2 li,
+body.fonte2 a,
+body.fonte2 main {
   font-size: 16px;
   font-family: "Titillium Web", sans-serif;
 }
